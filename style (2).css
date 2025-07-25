@@ -1,0 +1,47 @@
+/* Estilo aplicado ao corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    background-color: #fcfbfb; /* Cor de fundo clara */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #085a9c; /* Cor Azul para o cabeçalho */
+    color: rgb(255, 255, 255); /* Cor do texto branca */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.foto-Redonda {
+    width: 200px;         /* largura desejada */
+    height: 200px;        /* altura desejada */
+    object-fit: cover;    /* mantém o aspecto proporcional */
+    border-radius: 50%;   /* torna a imagem um círculo perfeito */
+  }
+
+/* Estilo para a área principal */
+main {
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilo para títulos das seções */
+h2 {
+    color: #333; /* Cor cinza escura para os títulos */
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: square; /* Tipo de marcador quadrado */
+    padding-left: 20px; /* Espaçamento à esquerda */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #84c0f3; /* Cor escura para o rodapé */
+    color: rgb(27, 28, 29); /* Cor do texto branca */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaço acima do rodapé */
+}
